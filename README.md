@@ -1,1 +1,3 @@
-# Efficient-way-to-Check-the-Divisibility-of-a-Number-by-Three
+In computer memory, everything is present as a string of 0's and 1's. If we store 27 in an integer variable, it will be stored 
+as "0001 1011" which is the binary representation of 27. Even when we write mathematical expressions having decimal numbers, they are converted into binary forms to perform the calculations. So instead of working on decimal representations, if we work on binary representations, then time consumption will come down.
+From the high school mathematics, we have learnt that if the sum of digits of an integer is divisible by 3 then the integer itself is divisible by 3. But this solution is not efficient. Here we need every digit of the integer one by one and then we need to add them and finally check if this sum is divisible by 3.
