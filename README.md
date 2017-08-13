@@ -1,4 +1,3 @@
-In computer memory, everything is present as a string of 0's and 1's. If we store 27 in an integer variable, it will be stored 
-as "0001 1011" which is the binary representation of 27. Even when we write mathematical expressions having decimal numbers, they are converted into binary forms to perform the calculations. So instead of working on decimal representations, if we work on binary representations, then time consumption will come down.
-From the high school mathematics, we have learnt that if the sum of digits of an integer is divisible by 3 then the integer itself is divisible by 3. But this solution is not efficient. Here we need every digit of the integer one by one and then we need to add them and finally check if this sum is divisible by 3.
-There is a way which works on the binary representation of the number. If the difference between the number of 1's in the odd position and the number of 1's in the even position is divisible by 3 then the integer itself is also divisible by three.
+# Everything is stored in computer memory as a string of bit.
+# Addition, subtraction, multiplication and division, all these operations are very costly in terms of time consumption. Avoiding such costly operations decreases the time consumption a lot.
+# We shall avoid them and work on binary representation directly.
